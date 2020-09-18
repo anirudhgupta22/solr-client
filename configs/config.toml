@@ -1,0 +1,10 @@
+
+[solr_collection_user_activity]
+    protocol = "http"
+    host = "localhost"
+    port = "8983"
+    collection = "collection_user_activities"
+
+[redis]
+    clusterMode = false
+    hosts = "10.0.240.175:6379"
